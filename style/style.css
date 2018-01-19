@@ -1,0 +1,178 @@
+.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+hr {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+/* landing part */
+.landing-container {
+    width: 100%;
+    margin: auto;
+    position: absolute;
+}
+
+/* Header part top */
+
+.header-top-container {
+    background: #411961;
+    padding: 8px 8%;
+}
+
+.header-top-container a{
+    color: #eeeeee;
+    margin-left: 10%;
+}
+
+.header-top-container a:hover {
+    color: #eeeeee;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header-language {
+    float: right;
+    text-decoration: underline;
+    margin-right: 100px;
+}
+
+/* Header part bottom */
+.header-bottom-container {
+    vertical-align: bottom;
+    line-height: 50px;
+    padding: 0 8%;
+}
+
+.header-bottom-container img {
+    width: 150px;
+    margin-left: 30px;
+}
+
+.header-bottom-container a {
+    display: inline;
+    padding: 50px 0;
+    color: #5d1c61;
+    font-weight: 400;
+    vertical-align: middle;
+}
+.header-bottom-container a:hover {
+    cursor: pointer
+}
+
+.header-solutions {
+    margin-left: 22%;
+}
+
+.header-careers {
+    margin-left: 10%;
+}
+
+/* Banner part */
+.banner-container {
+    margin-bottom: 100px;
+}
+
+.banner-container img {
+    width: 400px;
+}
+
+.banner-image {
+    text-align: center;
+}
+
+.banner-content {
+    align-items: center;
+    margin-top: 40px;
+}
+
+.banner-container h1 {
+    font-size: 40px;
+    font-weight: 300;
+    color: #5d1c61;
+    margin-top: 10px;
+}
+
+.banner-container p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #222;
+}
+
+.banner-container button{
+    background: #248700;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+/* Plan part */
+.plan-container {
+    vertical-align:middle;
+    line-height: 40px;
+    margin: 0 10%;
+}
+
+.form-container {
+    padding: 20px;
+}
+
+.form-container:nth-child(2n - 1) {
+    background: #eee
+}
+
+.plan-title {
+    font-size: 20px;
+}
+
+.plan-content {
+    font-size: 12px;
+}
+
+
+/* Footer part */
+.footer-container {
+    text-align: center;
+    width: 100%;
+    margin-top: 250px;
+}
+
+.footer-sentence {
+    background: #f7f1f7;
+    padding: 15px;
+}
+
+.footer-sentence span:first-child {
+    padding-right: 8px;
+}
+
+.footer-sentence span:nth-child(2) {
+    text-decoration: underline;
+}
+
+.footer-container span {
+    font-size: 12px;
+}
+
+.footer-container span:first-child {
+    padding-left: 10px;
+}
+
+.footer-container span:last-child {
+    padding-right: 10px;
+    color: #5d1c61;
+    text-underline: #5d1c61;
+}
+
+.footer-container p {
+    font-size: 50px;
+    padding: 150px 0;
+    background: #222222;
+    color: #dadadd;
+    margin-bottom: 0;
+}
